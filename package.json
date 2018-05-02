@@ -365,58 +365,53 @@
                     "group": "4_appServiceDiagnosticsCommands@2"
                 },
                 {
-                    "command": "appService.OpenInPortal",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
-                    "group": "1_appServiceGeneralCommands@1"
-                },
-                {
                     "command": "appService.Browse",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "1_appServiceGeneralCommands@2"
                 },
                 {
                     "command": "appService.Start",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "2_appServiceControlCommands@1"
                 },
                 {
                     "command": "appService.Stop",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "2_appServiceControlCommands@2"
                 },
                 {
                     "command": "appService.Restart",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "2_appServiceControlCommands@3"
                 },
                 {
                     "command": "appService.Delete",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "2_appServiceControlCommands@4"
                 },
                 {
                     "command": "appService.Deploy",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "3_appServiceDeployCommands@1"
                 },
                 {
                     "command": "appService.ConfigureDeploymentSource",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "3_appServiceDeployCommands@2"
                 },
                 {
                     "command": "appService.OpenVSTSCD",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "3_appServiceDeployCommands@3"
                 },
                 {
                     "command": "diagnostics.OpenLogStream",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "4_appServiceDiagnosticsCommands@1"
                 },
                 {
                     "command": "diagnostics.StopLogStream",
-                    "when": "view == azure-account.resourceView && viewItem == Microsoft.Web/sites",
+                    "when": "view == azure-account.resourceView && viewItem == resource:Microsoft.Web/sites",
                     "group": "4_appServiceDiagnosticsCommands@2"
                 },
                 {
@@ -713,10 +708,6 @@
             {
                 "id": "Microsoft.Web/sites",
                 "iconPath": "resources/dark/WebApp_color.svg"
-            },
-            {
-                "id": "Microsoft.Web/serverFarms",
-                "iconPath": "resources/dark/WebJobs_color.svg"
             }
         ]
     },
